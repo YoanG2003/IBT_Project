@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сблъсък на крале - Онлайн Магазин за Книги</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Сблъсък на крале<br><br></h1>
+        <div class="book-details">
+            <img src="images/book2.jpg" alt="Сблъсък на крале">
+            <div>
+                <p>„Сблъсък на крале“ ни пренася в една удивителна, забравена земя на разгул и мъст, на чародейство и войни.
+                    <br>
+                    Сказание, в което благородни девици пируват с безумци, където брат коварства срещу своя брат и където мъртвите се вдигат, за да тръгнат в нощта. Тук принцеса странства по света, предрешена като момче сираче; рицар на ума гласи отрова за вероломна чародейка; диваци се спущат от Лунната планина, за да опустошат плодните поля в низините.
+                    <br>
+                    На фона на кръвосмешение и братоубийство, алхимия и насилствена смърт, цената на славата се мери в кръв. А плячката на победата може просто да се озове в ръце на мъже и жени, притежаващи най-хладната стомана... и най-студените сърца. Защото щом се сблъскат владетелите, трепери цялата земя.</p>
+                <h2>Цена: 29 лв.</h2>
+            </div>
+        </div>
+        <h2>Закупуване на книга</h2>
+        <form id="purchaseForm">
+            <label for="name">Име:</label>
+            <input type="text" id="name" name="name">
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" name="address">
+            <label for="number">Телефон:</label>
+            <input type="text" id="number" name="number">
+            <button type="submit">Изпрати</button>
+        </form>
+        <h2>Потребителски ревюта</h2>
+        <div class="reviews">
+            <div class="review">
+                <p>Историята (поне за мен) е по-интересна от първата книга. Единственото което не ми харесва са меките корици, въпреки че ако беше с твърди нямаше да се продава за 20 лева.<p>
+            </div>
+        </div>
+        <form id="reviewForm">
+            <label for="comment">Коментар:</label>
+            <textarea id="comment" name="comment"></textarea>
+            <button type="submit">Изпрати</button>
+        </form>
+    </div>
+</body>
+</html>
